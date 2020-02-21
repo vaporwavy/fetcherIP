@@ -102,7 +102,7 @@ private:
     QTimer * m_pollTimer;
     QTimer * m_statusTimer;
     QTimer * m_renovateTimer; //timer for  renovate of all modbus slave id polling
-    QTimer * m_transactTimer; //timer for trunsaction
+    QTimer * m_transactTimer; //timer for transaction
     QMap<QString, int>   * m_data; //assosiative array of polling data
     QMap<QString, int>   * m_measure; //assosiative array of measurement quantities
     QMap<QString, int>   * m_range; //assosiative array of measurement equipments range
